@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height: 50px;
+    width: 100px;
+    
+}
+.logo{
+    background-image: url("ama.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+    /* margin-top: 5px; */
+}
+.border{
+    border: 1.5px solid transparent
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add_first{
+    color: #fff;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add_sec{
+    font-size: 1rem;
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.nav_search{
+    display: flex;
+    background-color: pink;
+    margin: 10px;
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+}
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search_input{
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: darkkhaki;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav_sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 30px;
+}
+.panel{
+    height: 50px;
+    background-color: lightblue;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 500;  
+}
+.panel_option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel_option p{
+    display: inline;
+    margin: 8px;
+    font-size: 18px;
+}
+.panel_deals{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.hero_section{
+    background-image: url("hero_section.png");
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero_msg{
+    color: #000;
+    background-color: #fff;
+    height: 40px;   
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.hero_msg p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.hero_msg a{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.shop_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightcyan;
+}
+.box{
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 250px;
+    width: 23%;
+    background-color: #fff;
+    padding: 20px 0 15px;
+    margin: 15px;
+}
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box content h2{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+    margin-left: -5px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.box_img{
+    background-image: url(healthcare.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    height: 200px;
+}
+.footer{
+    margin-top: 15px;
+}
+.foot_panel1{
+    background-color: #37475a;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.foot_panel2{
+    background-color: #222f3d;
+    color: #fff;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+ul a:hover{
+    color: darkgoldenrod;
+}
+.foot_panel3{
+    background-color: #222f3d;
+    color: #fff;
+    border-top: 0.5px solid #fff;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("ama.png");
+    background-size: cover;
+    height: 40px;
+    width: 100px;
+}
+.foot_panel4{
+    background-color: #0f1111;
+    color: #fff;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.pages a{
+    text-decoration: none;
+    color: #fff;
+}
+.copyright{
+    padding-top: 5px;
+}
